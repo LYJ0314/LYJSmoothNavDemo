@@ -15,6 +15,9 @@
 		2C63219B1EA9D2F90005D8B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C6321991EA9D2F90005D8B6 /* LaunchScreen.storyboard */; };
 		2C6321A61EA9D2F90005D8B6 /* LYJSmoothNavDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6321A51EA9D2F90005D8B6 /* LYJSmoothNavDemoTests.m */; };
 		2C6321B11EA9D2F90005D8B6 /* LYJSmoothNavDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6321B01EA9D2F90005D8B6 /* LYJSmoothNavDemoUITests.m */; };
+		2C6321C21EA9D3220005D8B6 /* UINavigationController+Cloudox.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6321BF1EA9D3220005D8B6 /* UINavigationController+Cloudox.m */; };
+		2C6321C31EA9D3220005D8B6 /* UIViewController+Cloudox.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6321C11EA9D3220005D8B6 /* UIViewController+Cloudox.m */; };
+		2C6321C61EA9D3810005D8B6 /* LYJMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6321C51EA9D3810005D8B6 /* LYJMyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		2C6321AC1EA9D2F90005D8B6 /* LYJSmoothNavDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYJSmoothNavDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C6321B01EA9D2F90005D8B6 /* LYJSmoothNavDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYJSmoothNavDemoUITests.m; sourceTree = "<group>"; };
 		2C6321B21EA9D2F90005D8B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C6321BE1EA9D3220005D8B6 /* UINavigationController+Cloudox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Cloudox.h"; sourceTree = "<group>"; };
+		2C6321BF1EA9D3220005D8B6 /* UINavigationController+Cloudox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Cloudox.m"; sourceTree = "<group>"; };
+		2C6321C01EA9D3220005D8B6 /* UIViewController+Cloudox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Cloudox.h"; sourceTree = "<group>"; };
+		2C6321C11EA9D3220005D8B6 /* UIViewController+Cloudox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Cloudox.m"; sourceTree = "<group>"; };
+		2C6321C41EA9D3810005D8B6 /* LYJMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYJMyViewController.h; sourceTree = "<group>"; };
+		2C6321C51EA9D3810005D8B6 /* LYJMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYJMyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				2C63218F1EA9D2F80005D8B6 /* AppDelegate.m */,
 				2C6321911EA9D2F80005D8B6 /* ViewController.h */,
 				2C6321921EA9D2F80005D8B6 /* ViewController.m */,
+				2C6321C41EA9D3810005D8B6 /* LYJMyViewController.h */,
+				2C6321C51EA9D3810005D8B6 /* LYJMyViewController.m */,
+				2C6321BE1EA9D3220005D8B6 /* UINavigationController+Cloudox.h */,
+				2C6321BF1EA9D3220005D8B6 /* UINavigationController+Cloudox.m */,
+				2C6321C01EA9D3220005D8B6 /* UIViewController+Cloudox.h */,
+				2C6321C11EA9D3220005D8B6 /* UIViewController+Cloudox.m */,
 				2C6321941EA9D2F90005D8B6 /* Main.storyboard */,
 				2C6321971EA9D2F90005D8B6 /* Assets.xcassets */,
 				2C6321991EA9D2F90005D8B6 /* LaunchScreen.storyboard */,
@@ -207,6 +222,7 @@
 				TargetAttributes = {
 					2C6321871EA9D2F80005D8B6 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4GH4W38WTY;
 						ProvisioningStyle = Automatic;
 					};
 					2C6321A01EA9D2F90005D8B6 = {
@@ -273,8 +289,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C6321C21EA9D3220005D8B6 /* UINavigationController+Cloudox.m in Sources */,
 				2C6321931EA9D2F80005D8B6 /* ViewController.m in Sources */,
+				2C6321C31EA9D3220005D8B6 /* UIViewController+Cloudox.m in Sources */,
 				2C6321901EA9D2F80005D8B6 /* AppDelegate.m in Sources */,
+				2C6321C61EA9D3810005D8B6 /* LYJMyViewController.m in Sources */,
 				2C63218D1EA9D2F80005D8B6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,9 +443,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4GH4W38WTY;
 				INFOPLIST_FILE = LYJSmoothNavDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = JXW.LYJSmoothNavDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = JXW.yy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -435,9 +456,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4GH4W38WTY;
 				INFOPLIST_FILE = LYJSmoothNavDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = JXW.LYJSmoothNavDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = JXW.yy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
